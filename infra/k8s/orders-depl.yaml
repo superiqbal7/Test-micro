@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: cygnetops/orders
+          image: superiqbal7/orders
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
